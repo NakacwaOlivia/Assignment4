@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!--Headings-->
+        <h1>Biography</h1>
+        <style>h1{color: rgba(137, 43, 226, 0.863); text-align: center;}</style>
+       
+         <!--Table-->
+         <table>
+             <thead>
+                 <tr>
+                     <th><strong>Name</strong></th>
+                     <th><strong>Email</strong></th>
+                     <th><strong>Age</strong></th>
+                     <th><strong>Address</strong></th>
+                     <th><strong>Nationality</strong></th>
+                     <th><strong>Marital Status</strong></th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>Olivia Nakacwa</td>
+                     <td><a href = "https://mail.google.com">k.nakacwa.olivia@gmail.com</a></td>
+                     <td>19</td>
+                     <td>Luzira Port Bell Road</td>
+                     <td>Ugandan</td>
+                     <td>Single</td>
+                 </tr>
+                 <tr>
+                     <td>Dianah Nakitto</td>
+                     <td><a href = "https://mail.google.com">nakittodianahfranklyn@gmail.com</a></td>
+                     <td>20</td>
+                     <td>Luzira Port Bell Road</td>
+                     <td>Ugandan</td>
+                     <td>Single</td>
+                 </tr>
+                 <tr>
+                     <td>Brian Bukenya</td>
+                     <td><a href = "https://mail.google.com">brianbukenya@icloud.com</a></td>
+                     <td>27</td>
+                     <td>Namere Mpererwe</td>
+                     <td>Ugandan</td>
+                     <td>Married</td>
+                 </tr>
+                 <tr>
+                     <td>Christopher Muwonge</td>
+                     <td><a href = "https://mail.google.com">muwongechriszmc@gamil.com</a></td>
+                     <td>25</td>
+                     <td>Manyangwa Gayaza</td>
+                     <td>Ugandan</td>
+                     <td>Married</td>
+                 </tr>
+                 <tr>
+                    <td>Adare Sandra</td>
+                    <td><a href = "https://mail.google.com">adaresandra@gamil.com</a></td>
+                    <td>19</td>
+                    <td>Kakira East Jinja</td>
+                    <td>Ugandan</td>
+                    <td>Single</td>
+                </tr>
+             </tbody>
+         </table>
+         <br>
+         <hr>
+        
+         <!--forms-->
+         <h2>Sign-in Action</h2>
+         <style>h2{color: rgba(137, 43, 226, 0.863); text-align: center;}</style>
+         <form action="process.php" method="POST">
+             <div>
+                 <label>First Name</label>
+                 <input type="text" name="firstName" placeholder='Enter first name'>
+             </div>
+             <br>
+             <div>
+                 <label>Last Name</label>
+                 <input type="text" name="lastName" placeholder='Enter last name'>
+             </div>
+             <br>
+             <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value='female'>Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <br>
+             <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="text" name="email" value='@gmail.com'>
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+         </form>
+         <br>
+         <!--Buttons-->
+         <button>Click Me</button>
+         <br>
+         <br>
+         <div ztyle="margin-top:500px"></div>
+    </body>
+</html>
